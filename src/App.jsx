@@ -3,6 +3,7 @@ import SignUp from './components/sign_up';
 import Home from './components/home';
 import Login from './components/login';
 import Layout from './Layout';
+import CodeEditor from './components/codeeditor';
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
         <Route path="" element={<Home />} />
         <Route path="signUp" element={<SignUp />} />
         <Route path="Login" element={<Login />} />
+        <Route path="CodeEditor" element={<CodeEditor />} />
+
       </Route>
     )
   );
